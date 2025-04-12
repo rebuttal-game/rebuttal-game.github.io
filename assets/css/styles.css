@@ -1,0 +1,39 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+.logo-container {
+    background-color: #755291;
+    background-image: url('../images/sunburst-pattern.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px 20px; More responsive spacing */
+    width: 100%;
+    text-align: center;
+}
+
+.header-text {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 0;
+    text-shadow: 1.5px 1.5px 0 #00000078;
+}
+
+.logo {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    /* margin: 20px 0; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
