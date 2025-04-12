@@ -54,25 +54,41 @@ body {
 }
 
 .register-interest-container {
-    /* box-shadow: 0 0 10px #000000cf; */
-    /* justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0; */
-    /* background-image: url('../images/thrown-cards-banner.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center; */
+    position: relative;
     width: 100%;
     margin-top: -8%;
-    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
 }
 
 .cards-banner {
     display: block;
     width: 100%;
-    height: auto;
     margin: 0;
     padding: 0;
-    min-height: 50%;
+    min-height: 20%;
 }
+
+.register-interest-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #000; /* Optional: semi-transparent background */
+    padding: 37px 70px 30px 70px;
+    padding: 50px 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2rem;
+  }
+  .register-interest-link-subtext {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+  }
