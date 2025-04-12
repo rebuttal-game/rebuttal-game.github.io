@@ -9,7 +9,8 @@ body {
 
 .logo-container {
     background-color: #755291;
-    background-image: url('../images/sunburst-pattern.png');
+    background-image: url('../svg/sunburst-pattern.svg');
+
     background-size: 500%;
     background-repeat: no-repeat;
     background-position: center;
