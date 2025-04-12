@@ -10,15 +10,13 @@ body {
 .logo-container {
     background-color: #755291;
     background-image: url('../svg/sunburst-pattern.svg');
-
-    background-size: 500%;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 40px 20px; More responsive spacing */
     width: 100%;
     text-align: center;
 }
@@ -27,27 +25,52 @@ body {
     color: #fff;
     font-family: 'Luckiest Guy', sans-serif;
     /* font-weight: bold; */
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 20px 0 0 0;
+    margin-top: 10%;
     text-shadow: 0 0 10px #000000cf;
 }
 .header-text-with {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .header-text-lower {
     color: #fff;
     font-family: 'Luckiest Guy', sans-serif;
-    font-size: 1.4rem;
-    padding: 10px 0;
+    font-size: 1.8rem;
+    padding: 10px 0 20px 0;
+    margin-bottom: 10%;
     text-shadow: 0 0 10px #000000cf;
 }
 
 .logo {
     width: 90%;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
     /* margin: 20px 0; */
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.register-interest-container {
+    /* box-shadow: 0 0 10px #000000cf; */
+    /* justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; */
+    /* background-image: url('../images/thrown-cards-banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 100%;
+    margin-top: -8%;
+    /* height: 200px; */
+}
+
+.cards-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
