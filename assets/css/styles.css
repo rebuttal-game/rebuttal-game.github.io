@@ -155,4 +155,15 @@ body {
   .rebuttal-summary-text {
     margin: 0 10%;
     text-wrap: balance;
+    font-size: 1.5rem;
+  }
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 30px 50px;
+    padding: 0;
   }
