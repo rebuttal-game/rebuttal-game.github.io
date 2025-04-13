@@ -167,3 +167,59 @@ hr {
     margin: 30px 50px;
     padding: 0;
   }
+
+.normal-text {
+    margin: 0 10%;
+    text-wrap: balance;
+    font-size: 1.2rem;
+  }
+
+
+.gallery-wrapper {
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+
+  .gallery::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery img {
+    height: 100%;
+    max-height: 750px;
+    flex-shrink: 0;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+
+  .arrow.left {
+    left: 0;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  .arrow.right {
+    right: 0;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+  }
