@@ -116,12 +116,12 @@ body {
     font-weight: 600;
   }
 
-  .register-interest-link:hover .register-interest-link:active {
+  .register-interest-link:hover {
     background-color: #efefef;
     /* color: #e2b523; */
     color: #222222;
   }
-  .register-interest-link-subtext:hover .register-interest-link-subtext:active {
+  .register-interest-link-subtext:hover {
     /* color: #e2b523; */
     color: #222222;
   }
@@ -149,4 +149,10 @@ body {
     /* width: 600px; */
     /* width: 100%; */
     border: none;
+  }
+
+
+  .rebuttal-summary-text {
+    margin: 0 10%;
+    text-wrap: balance;
   }
