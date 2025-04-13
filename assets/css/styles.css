@@ -116,12 +116,12 @@ body {
     font-weight: 600;
   }
 
-  .register-interest-link:hover {
+  .register-interest-link:hover .register-interest-link:active {
     background-color: #efefef;
     /* color: #e2b523; */
     color: #222222;
   }
-  .register-interest-link-subtext:hover {
+  .register-interest-link-subtext:hover .register-interest-link-subtext:active {
     /* color: #e2b523; */
     color: #222222;
   }
