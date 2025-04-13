@@ -2,38 +2,32 @@
 
 body {
     font-family: 'Urbanist', sans-serif;
-    background-color: #755291;
     margin: 0;
     text-align: center;
 }
 
 .logo-container {
-    /* background-color: #755291; */
-    /* background-image: url('../svg/sunburst-pattern.svg');
-    background-size: 5000%;
-    background-repeat: no-repeat;
-    background-position: 50%; */
+    background-color: #755291;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100%;
     text-align: center;
 }
 
 .background-pattern {
-    height: 150%;
+    /* height: 150%; */
+    /* height: 500px; */
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
+    /* transform: translate(0, -160px); */
     z-index: 0;
-    /* transform: translate(0%, -30%); */
-    /* top: -200px; */
-    /* left: 50%;
-    top: 0%; */
     background-image: url('../svg/sunburst-pattern.svg');
     background-size: 5000%;
     background-repeat: no-repeat;
-    background-position: 50%;
+    /* background-position: center 20%; */
+    background-position: 50% calc(50% - 100px);
 }
 
 .header-text-upper {
@@ -53,7 +47,7 @@ body {
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 1.8rem;
     padding: 10px 0 20px 0;
-    margin: 0 50px 20px 50px;
+    margin: 0 50px 170px 50px;
     text-shadow: 0 0 10px #000000cf;
     text-wrap: balance;
 }
@@ -75,7 +69,7 @@ body {
 .register-interest-container {
     position: relative;
     width: 100%;
-    margin-top: 50pxs;
+    margin-top: -150px;
     overflow: hidden;
     display: inline-block;
     display: flex;
@@ -89,7 +83,7 @@ body {
     display: block;
     width: 100%;
     min-width: 2000px;
-    margin: 0;
+    margin: 0 0 -10px 0;
     padding: 0;
     min-height: 20%;
 }
@@ -116,4 +110,8 @@ body {
     font-family: 'Urbanist', sans-serif;
     font-size: 1rem;
     margin-bottom: 0.5em;
+  }
+
+  .register-interest-link:hover {
+    background-color: #f4f4f4;
   }
