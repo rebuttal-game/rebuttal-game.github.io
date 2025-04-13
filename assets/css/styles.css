@@ -125,5 +125,21 @@ body {
 
   .form-container {
     width: 100%;
-    max-width: 400px;
+    background-color: red;
+    /* max-width: 400px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .form-subcontainer {
+    /* max-width: 400px; */
+    width: 100%;
+    /* height: 1000px; */
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .form-subcontainer iframe {
+    width: 100%;
+    border: none;
   }
