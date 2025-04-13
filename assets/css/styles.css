@@ -225,6 +225,10 @@ hr {
   }
 
 
+.card-list {
+    display: block;
+}
+
 .card-container-left {
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +263,7 @@ hr {
 .card-text-content-left {
     max-width: 500px;
     text-wrap: balance;
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 1.2rem;
 }
 
@@ -297,7 +301,6 @@ hr {
 .card-text-content-right {
     max-width: 500px;
     text-wrap: balance;
-    text-align: justify;
     font-size: 1.2rem;
 }
   
