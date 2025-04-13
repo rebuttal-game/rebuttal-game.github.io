@@ -2,17 +2,17 @@
 
 body {
     font-family: 'Urbanist', sans-serif;
-    background-color: #fff;
+    background-color: #755291;
     margin: 0;
     text-align: center;
 }
 
 .logo-container {
-    background-color: #755291;
-    background-image: url('../svg/sunburst-pattern.svg');
+    /* background-color: #755291; */
+    /* background-image: url('../svg/sunburst-pattern.svg');
     background-size: 5000%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,13 +21,28 @@ body {
     text-align: center;
 }
 
+.background-pattern {
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    /* transform: translate(0%, -30%); */
+    /* top: -200px; */
+    /* left: 50%;
+    top: 0%; */
+    background-image: url('../svg/sunburst-pattern.svg');
+    background-size: 5000%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
 .header-text-upper {
     color: #fff;
     font-family: 'Luckiest Guy', sans-serif;
     /* font-weight: bold; */
     font-size: 3rem;
-    padding: 20px 0 0 0;
-    margin-top: 10%;
+    padding: 10px 0 0 0;
+    margin-top: 20px;
     text-shadow: 0 0 10px #000000cf;
 }
 .header-text-with {
@@ -38,7 +53,7 @@ body {
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 1.8rem;
     padding: 10px 0 20px 0;
-    margin: 0 50px 10% 50px;
+    margin: 0 50px 20px 50px;
     text-shadow: 0 0 10px #000000cf;
     text-wrap: balance;
 }
@@ -54,12 +69,13 @@ body {
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .register-interest-container {
     position: relative;
     width: 100%;
-    margin-top: -8%;
+    margin-top: 50pxs;
     overflow: hidden;
     display: inline-block;
     display: flex;
