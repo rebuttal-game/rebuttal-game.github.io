@@ -212,14 +212,52 @@ hr {
     z-index: 10;
   }
 
-  .arrow.left {
+.arrow.left {
     left: 0;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 40%;
   }
 
-  .arrow.right {
+.arrow.right {
     right: 0;
     border-top-left-radius: 40%;
     border-bottom-left-radius: 40%;
+  }
+
+
+.card-container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+.card-subcontainer {
+    width: 100%;
+    display: flex;
+    background-color: green;
+    align-items: left;
+  }
+
+.card-img-container {
+    height: 200px;
+    width: 50%;
+    overflow: hidden;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: contain;
+    background-color: blue;
+    padding: 0 30px;
+}
+
+.card-img-container img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    object-fit: contain;
+    background-color: yellow;
+    right: 0;
   }
