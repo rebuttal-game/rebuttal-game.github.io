@@ -133,6 +133,7 @@ body {
     /* max-width: 400px; */
     justify-content: center;
     align-items: center;
+    background-color: #ddd;
   }
   .form-subcontainer {
     /* max-width: 400px; */
@@ -347,25 +348,26 @@ hr {
 
 
 h3 {
+    padding: 2rem 0 0 0;
+    margin: 0;
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 3rem;
-    margin: 0;
 }
 
 .register-interest-body-container {
     width: 100%;
-    background-color: red;
     align-items: center;
     justify-content: center;
     position: relative;
     display: flex;
     margin: 0;
     padding: 0;
+    margin-bottom: 2rem;
 }
 .register-interest-body {
     width: 50%;
-    min-width: 512px;
-    background-color: blue;
+    min-width: 384px;
     align-items: center;
+    text-align: justify;
     font-size: 1.3rem;
 }
